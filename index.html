@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description"
+        content="L'AppliMétéo vous donne le temps qu'il fait aujourd'hui tous les trois heures et toute la semaine!" />
+    <!--description du site-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"><!--bootstrap-->
+    <script src="https://kit.fontawesome.com/6d6fa698d7.js" crossorigin="anonymous"></script><!--lien icône-->
+    <title>AppliMétéo</title>  <!--title-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">  <!--favicon-->
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav">  <!--navigation-->
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#contact">Liens sociaux</a></li>
+                <li><a href="#contact">Productions</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section><!--section-->
+        <div class="container">
+            <div class="overlay-icone-chargement">
+                <img src="ressources/chargement/circles.svg" alt="logo de chargement">  <!--logo de chargement-->
+            </div>
+            <h1>Application météo</h1>  <!--h1-->
+            <!--h1-->
+            <div class="bloc-logo-info">
+                <div class="bloc-logo">
+                    <img src="" alt="logo du temps qu'il fait" class="logo-meteo">
+                    <!--logo-->
+                </div>
+                <div class="bloc-info">
+                    <!--bloc info-->
+                    <p class="temps"></p>
+                    <p class="temperature"></p>
+                    <p class="localisation"></p>
+                </div>
+            </div>
+            <div class="heure-bloc-prevision">
+                <!--heure bloc prévision-->
+                <div class="bloc-h">
+                    <p class="heure-nom-prevision"></p>
+                    <p class="heure-prevision-valeur"></p>
+                </div>
+                <div class="bloc-h">
+                    <p class="heure-nom-prevision"></p>
+                    <p class="heure-prevision-valeur"></p>
+                </div>
+                <div class="bloc-h">
+                    <p class="heure-nom-prevision"></p>
+                    <p class="heure-prevision-valeur"></p>
+                </div>
+                <div class="bloc-h">
+                    <p class="heure-nom-prevision"></p>
+                    <p class="heure-prevision-valeur"></p>
+                </div>
+                <div class="bloc-h">
+                    <p class="heure-nom-prevision"></p>
+                    <p class="heure-prevision-valeur"></p>
+                </div>
+                <div class="bloc-h">
+                    <p class="heure-nom-prevision"></p>
+                    <p class="heure-prevision-valeur"></p>
+                </div>
+                <div class="bloc-h">
+                    <p class="heure-nom-prevision"></p>
+                    <p class="heure-prevision-valeur"></p>
+                </div>
+            </div>
+            <div class="jour-prevision-bloc">
+                <!--jour prévision bloc-->
+                <div class="bloc-j">
+                    <p class="jour-prevision-nom"></p>
+                    <p class="jour-prevision-temp"></p>
+                </div>
+                <div class="bloc-j">
+                    <p class="jour-prevision-nom"></p>
+                    <p class="jour-prevision-temp"></p>
+                </div>
+                <div class="bloc-j">
+                    <p class="jour-prevision-nom"></p>
+                    <p class="jour-prevision-temp"></p>
+                </div>
+                <div class="bloc-j">
+                    <p class="jour-prevision-nom"></p>
+                    <p class="jour-prevision-temp"></p>
+                </div>
+                <div class="bloc-j">
+                    <p class="jour-prevision-nom"></p>
+                    <p class="jour-prevision-temp"></p>
+                </div>
+                <div class="bloc-j">
+                    <p class="jour-prevision-nom"></p>
+                    <p class="jour-prevision-temp"></p>
+                </div>
+                <div class="bloc-j">
+                    <p class="jour-prevision-nom"></p>
+                    <p class="jour-prevision-temp"></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer><!--footer-->
+        <hr> 
+        <div id="contact" class="container_footer">
+            <div class="jimmy">
+                <p class="jimmyTitre">jimmyOpensource</p>
+                <p class="jimmyTitre">dev</p>
+            </div>
+            <div class="products">
+                <ul>
+                    <li>
+                        <h6>Products</h6>
+                    </li>
+                    <li>
+                        <h6>Javascript</h6>
+                    </li>
+                    <li>
+                        <h6>Contact</h6>
+                    </li>
+                </ul>
+            </div>
+            <div class="mail">
+                <li>
+                    <p><i class="fas fa-envelope me-3"></i></p>
+                </li>
+                <li>
+                    <p>jimmy.farescourt@gmail.com</p>
+                </li>
+            </div>
+        </div>
+        <div class="social">
+            <ul>
+                <li><a href="https://twitter.com/Farescourt1" class="twitter"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/jimmy-farescourt-500556205/" class="linkedin"><i
+                            class="fab fa-linkedin"></i></a></li>
+                <li><a href="https://github.com/jimmyf8" class="github"><i class="fab fa-github"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+    <script type="module" src="/script/main.js"></script><!--script-->
+</body>
+</html>
