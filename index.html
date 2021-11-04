@@ -23,8 +23,8 @@
         <nav>
             <ul class="nav">  <!--navigation-->
                 <li><a href="#contact">Contact</a></li>
-                <li><a href="#contact">Liens sociaux</a></li>
-                <li><a href="#contact">Productions</a></li>
+                <li><a href="#sociaux">Liens sociaux</a></li>
+                <li><a href="#products">Productions</a></li>
             </ul>
         </nav>
     </header>
@@ -111,43 +111,107 @@
             </div>
         </div>
     </section>
-    <footer><!--footer-->
-        <hr> 
-        <div id="contact" class="container_footer">
-            <div class="jimmy">
-                <p class="jimmyTitre">jimmyOpensource</p>
-                <p class="jimmyTitre">dev</p>
+    <footer><!-- Footer -->
+        <footer id="footer" class="bg-dark text-center text-white">
+            <!-- Grid container -->
+            <div id="sociaux" class="container p-4">
+              <!-- Section: Social media -->
+              <section class="mb-4">
+                <!-- Twitter -->
+                <a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com/Farescourt1" role="button"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+                <!-- Linkedin -->
+                <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/jimmy-farescourt-500556205/" role="button"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+          
+                <!-- Github -->
+                <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/jimmyf8" role="button"
+                  ><i class="fab fa-github"></i
+                ></a>
+              </section>
+              <!-- Section: Social media -->
+              <section class="">
+                <form action="">
+                  <!--Grid row-->
+                  <div class="row d-flex justify-content-center">
+                    <!--Grid column-->
+                    <div class="col-auto">
+                      <p class="pt-2">
+                        <strong>Sign up for our newsletter</strong>
+                      </p>
+                    </div>
+                    <div class="col-md-5 col-12">
+                      <!-- Email input -->
+                      <div class="form-outline form-white mb-4">
+                        <input type="email" id="form5Example21" class="form-control" />
+                        <label class="form-label" for="form5Example21">Email address</label>
+                      </div>
+                    <div class="col-auto">
+                      <!-- Submit button -->
+                      <button type="submit" class="btn btn-outline-light mb-4">
+                        Subscribe
+                      </button>
+                    </div>
+                    <!--Grid column-->
+                  </div>
+                  <!--Grid row-->
+                </form>
+              </section>
+              <section class="mb-4">
+                  <a href="https://www.youtube.com/channel/UC4cKfv-3phntTQH4fprxnsg">
+                    <p class="youtube">jimmyOpensource Dev</p>
+                </a>
+              </section>
+              <!-- Section: Text -->
+          
+              <!-- Section: Links -->
+              <section class="">
+                <!--Grid row-->
+                <div class="row">
+                  <!--Grid column-->
+                  <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Framework</h5>
+          
+                    <ul class="list-unstyled mb-0">
+                      <li>
+                        <a href="#!" class="text-white">Boostrap</a>
+                      </li>
+                     
+                    </ul>
+                  </div>
+                  <div id="products" class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Productions</h5>
+                    <ul class="list-unstyled mb-0">
+                      <li>
+                        <a href="#!" class="text-white">Javascript</a>
+                      </li>                     
+                    </ul>
+                  </div>
+                  <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 id="contact"class="text-uppercase"><p><i class="fas fa-envelope me-3"></i></p></h5>
+                    <ul class="list-unstyled mb-0">
+                      <li>
+                        <a href="mailto:jimmy.farescourt@gmail.com" class="text-white"><p>jimmy.farescourt@gmail.com</p></a>
+                      </li>
+                      </li>
+                    </ul>
+                  </div>
+                  <!--Grid column-->
+                </div>
+                <!--Grid row-->
+              </section>
+              <!-- Section: Links -->
             </div>
-            <div class="products">
-                <ul>
-                    <li>
-                        <h6>Products</h6>
-                    </li>
-                    <li>
-                        <h6>Javascript</h6>
-                    </li>
-                    <li>
-                        <h6>Contact</h6>
-                    </li>
-                </ul>
+            <!-- Copyright -->
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+              © 2020 Copyright:
+              <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
             </div>
-            <div class="mail">
-                <li>
-                    <p><i class="fas fa-envelope me-3"></i></p>
-                </li>
-                <li>
-                    <p>jimmy.farescourt@gmail.com</p>
-                </li>
-            </div>
-        </div>
-        <div class="social">
-            <ul>
-                <li><a href="https://twitter.com/Farescourt1" class="twitter"><i class="fab fa-twitter"></i></a></li>
-                <li><a href="https://www.linkedin.com/in/jimmy-farescourt-500556205/" class="linkedin"><i
-                            class="fab fa-linkedin"></i></a></li>
-                <li><a href="https://github.com/jimmyf8" class="github"><i class="fab fa-github"></i></a></li>
-            </ul>
-        </div>
+            <!-- Copyright -->
+          </footer>
+          <!-- Footer -->
     </footer>
     <script type="module" src="/script/main.js"></script><!--script-->
 </body>
