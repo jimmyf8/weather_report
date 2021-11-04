@@ -1,6 +1,6 @@
 /*--------------------------------------------------------------------------*IMPORTATION*/
 import tabJoursEnOrdre from "./utilitaires/gestionTemps.js";
-const cleApi               = 'e3ceafe2e3bfa8621426c3a69d6ec12f';
+const cleApi               = '';
 const api                  = 'api.openweathermap.org';
 const temps                = document.querySelector('.temps');
 const temperature          = document.querySelector('.temperature');
