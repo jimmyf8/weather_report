@@ -9,7 +9,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     color: #f1f1f1;
     background: linear-gradient(45deg, rgb(59,50,50), rgb(22,28,29));
-    max-height: 180vh;
+    max-height: 140vh;
     width: 100%;
 }
 /*--------------------------------------------------------------------------*NAV*/
@@ -118,75 +118,20 @@ footer{
     margin: 0px;
     width: 100%;
 }
-.container_footer{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    margin-top: 55px;
-}
-.jimmy{
-    width: 700px;
-   padding: 30px;
-   font-size: 2vmax;
-
-}
-.social a{
-    margin: 20px;
-    color: azure;
-    display: flex;
-    width:80%;
-    text-decoration: none;
-    list-style: none;
-    
-}
-.social ul{
-    display: flex;
-    justify-content: space-around;
-    margin: 0px;
-}
-
 li{
     text-decoration: none;
     list-style: none;
     margin: 10px;
 }
-
-.products ul{ 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 5px;
+.youtube{
+    color: white;
 }
+.youtube:hover{
+    text-decoration: none;
+}
+
 h6{
     font-size: 2vmin;
-}
-.mail{
-    font-size: 3vmin;
-}
-/*--------------------------------------------------------------------------*MEDIA SCREEN*/
-@media screen and (max-width: 700px) {
-    .bloc-info .localisation {
-        font-size: 4vmin;
-        word-wrap: break-word;
-    }
-    footer{
-        display: flex;
-        flex-direction: column;
-    }
-    .social ul{
-        display: flex;
-        justify-content: space-around;
-        
-      
-    }
-    .social a{
-        margin: 2px;
-        color: azure;
-        display: flex;
-       
-      
-    }
-    
 }
 /*--------------------------------------------------------------------------*ANIMATION_CHARGEMENT*/
 .overlay-icone-chargement{
